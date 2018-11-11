@@ -29,6 +29,18 @@ If your ECR repo was the following:
 * **$AWS_ACCOUNT_ID**: *e.g. 123124124*
 * **$IMAGE_TAG**: *e.g. latest*
 
+## Role Configuration
+
+You will also need to make sure that the role attached to the CodeBuild job has Read/Write permission to ECR.
+
+```json
+{
+    "Effect": "Allow",
+    "Action": "ecr:*",
+    "Resource": "*"
+}
+```
+
 ## Setup Images
 
 ![CodeBuild Setup 0](img/codebuild-setup-00.png)
