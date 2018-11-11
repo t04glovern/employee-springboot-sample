@@ -1,5 +1,7 @@
 # Employee API
 
+![CodeBuild](https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiRUVtYmY0djAwT1Ivc2s0UmtDNTNKcDZiVEJqWWJmdUNzSG9EVXcvVWNnUGpjTDc2NFNyMkY5Q3hRVHFtdC95M2dReUR1b2hpdlhNckVOS1JxUWJMQXZnPSIsIml2UGFyYW1ldGVyU3BlYyI6IkJoQ2NuY0Npb1Exd3NxcjIiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master)
+
 ## Quickstart Deployment
 
 Run the following to build & deploy the project to ECR
@@ -26,3 +28,13 @@ If your ECR repo was the following:
 * **$AWS_DEFAULT_REGION**: *e.g. us-east-1*
 * **$AWS_ACCOUNT_ID**: *e.g. 123124124*
 * **$IMAGE_TAG**: *e.g. latest*
+
+## Setup Images
+
+![CodeBuild Setup 0](img/codebuild-setup-00.png)
+
+![CodeBuild Setup 1](img/codebuild-setup-01.png)
+
+![CodeBuild Setup 2](img/codebuild-setup-02.png)
+
+![CodeBuild Setup 3](img/codebuild-setup-03.png)
